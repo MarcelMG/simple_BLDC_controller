@@ -5,4 +5,4 @@ A three-resistor star-network generates a virtual star-point for the motor, to m
 This very simple approach works, but doesn't allow autonomous starting of the motor (i.e. you have to spin up the motor by hand for it tos 		start. This is because when the motor is at rest, there is no voltage inducted in the phases, thus we can't deduce the rotor position to trigger 	the commutation.
 
 Schematic:
-(https://raw.githubusercontent.com/MarcelMG/simple_BLDC_controller/master/bldc_schematic.png)
+![bldc_schematic](https://raw.githubusercontent.com/MarcelMG/simple_BLDC_controller/master/bldc_schematic.png)
